@@ -1,0 +1,160 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.fondo {
+  background-image: url(../imagenes/fondo.png);
+  background-image: no-repeat;
+}
+
+.footer {
+  background-color: rgba(189, 49, 189, 0.548);
+  color: black;
+  border-top: 2px;
+  padding: 1rem;
+  font-size: 12px;
+  list-style-type: none;
+}
+
+.portada {
+  gap: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portada-titulo {
+  color: rgb(90, 21, 90);
+  text-shadow: 2px 3px 7px purple;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.portada-subtitulo {
+  color: red;
+  text-shadow: 2px 3px 7px purple;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .portada-titulo {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1200px) {
+  .portada-subtitulo {
+    font-size: 2rem;
+  }
+}
+.portada-imagen {
+  width: 210px;
+  height: 200px;
+}
+
+@media (min-width: 1200px) {
+  .portada-imagen {
+    width: 500px;
+    height: 450px;
+  }
+}
+.portada-imagen {
+  text-align: justify;
+}
+
+.titulo {
+  color: red;
+  text-shadow: 2px 3px 7px purple;
+  font-weight: bold;
+  text-align: center;
+}
+
+.formulario {
+  font-size: 1em;
+  padding-left: 1rem;
+  color: black;
+  text-shadow: 2px 3px 8px white;
+}
+
+.formulario-lista {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: black;
+  text-shadow: 2px 3px 8px white;
+}
+
+@media (min-width: 1200px) {
+  .formulario {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .formulario-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+.compra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tarjeta {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.tarjeta img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  text-align: center;
+}
+
+.tarjeta h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.tarjeta p {
+  padding: 0 15px;
+  text-align: justify;
+}
+
+.tarjeta .precio {
+  text-align: center;
+  font-size: 1.2em;
+  color: #e44d26; /* Color naranja para el precio */
+  margin: 10px 0;
+}
+
+.tarjeta button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #e44d26; /* Color naranja para el botón */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+/* Puedes personalizar los estilos según tus necesidades */
+
+/*# sourceMappingURL=style.css.map */
