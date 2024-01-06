@@ -9,3 +9,11 @@
     background-image: url(../imagenes/fondo.png);
     background-image: no-repeat;
 }
+
+
+
+@mixin mq-lg {
+    @media (min-width: 1000px) {
+        @content;
+    }
+}
