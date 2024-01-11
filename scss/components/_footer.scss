@@ -1,8 +1,98 @@
+// .footer {
+//     background-color: rgba(189, 49, 189, 0.548);
+//     color: black;
+//     border-top: 2px;
+//     padding: 1rem;
+//     font-size: 12px;
+//     list-style-type: none;
+// }
+
+
 .footer {
-    background-color: rgba(189, 49, 189, 0.548);
+    background-image: linear-gradient(rgb(201, 201, 201), rgb(29, 24, 24));
     color: black;
     border-top: 2px;
     padding: 1rem;
-    font-size: 12px;
+    font-size: 5px;
+
+    &-lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .1rem;
+        color: black;
+       
+    }
+
+    &-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+        text-align: justify;
+    }
+    
+
+    &-redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &-copy {
+        text-align: center;
+        margin-top: 1rem;
+        border-top: 2px;
+        font-size: .7rem;
+        color: white;
+    }
+
+}
+
+.footer-redes ul li a i {
+    font-size: 1.1rem;
+}
+
+.footer-redes ul li a {
+    color:black;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    border-top: 2px;
+    
+
+}
+
+footer-wrapper h4,
+footer-wrapper p {
+    text-align: center;
+    
+}
+
+.footer-wrapper h4 {
+    font-size: 1.1 rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    color: black;
+
+}
+
+.logo {
+    width: 110px;
+}
+
+.redes2 {
     list-style-type: none;
+}
+
+@include mq-lg {
+    .footer-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

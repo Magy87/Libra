@@ -33,29 +33,46 @@
         text-align: center;
     }
 
+    // & h2 {
+    //     text-align: center;
+    //     margin: 10px 0;
+    //     color: rgb(129, 22, 40),
+    // }
+
     & h2 {
         text-align: center;
         margin: 10px 0;
-        color: rgb(129, 22, 40),
+        color: rgb(129, 22, 40);
+        font-weight: bold; /* Se corrigió la coma aquí */
     }
+    
 
     & p {
         padding: 0 15px;
         text-align: justify;
     }
 
-    & precio{
+    // & precio {
+    //     text-align: center;
+    //     font-size: 1.5rem;
+    //     color: rgb(179, 9, 9);
+    //     margin: 10px 0;
+    // }
+
+    & .precio {
         text-align: center;
         font-size: 1.5rem;
-        color: rgb(179, 9, 9);
+        color: rgb(235, 50, 50);
         margin: 10px 0;
+        font-weight: bold;
     }
+    
 
-    & button {
+    & .button {
         display: block;
         width: 100%;
         padding: 10px;
-        background-color: rgb(87, 4, 87);
+        background-color: rgb(110, 54, 110);
         color: #fff;
         border: none;
         border-radius: 5px;
@@ -64,12 +81,21 @@
     }
 
 }
+
+.img:hover{
+    transform: scale(1.12);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
 .button:hover{
 
-transform: scale(1.08);
+transform: scale(1.05);
 transition-duration: 1s;
 transition-property: all;
-transition-timing-function: ease;}
+transition-timing-function: ease;
+background-color:rgb(83, 7, 83);
+}
 
 
 @include mq-lg {
