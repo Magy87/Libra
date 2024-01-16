@@ -19,8 +19,8 @@
 }
 
 .footer {
-  background-image: linear-gradient(rgb(201, 201, 201), rgb(29, 24, 24));
-  color: black;
+  background-color: rgb(75, 74, 74);
+  color: white;
   border-top: 2px;
   padding: 1rem;
   font-size: 5px;
@@ -31,7 +31,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.1rem;
-  color: black;
+  color: white;
 }
 .footer-info {
   display: flex;
@@ -58,7 +58,7 @@
 }
 
 .footer-redes ul li a {
-  color: black;
+  color: white;
 }
 
 .footer-wrapper {
@@ -78,7 +78,7 @@ footer-wrapper p {
   font-size: 1.1 rem;
   text-decoration: underline;
   margin-bottom: 1rem;
-  color: black;
+  color: white;
 }
 
 .logo {
